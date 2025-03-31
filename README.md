@@ -89,8 +89,3 @@ For any questions or suggestions, reach out to the team leader:
 📧 Email: ridgejunior204@gmail.com  
 📱 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/ridge-junior-2bb333204/)  
 
----
-
-📌 **Note:** Update placeholders (`your-github-username`, `your-email@example.com`) before using.  
-
-Would you like any more changes? 😊🚀
