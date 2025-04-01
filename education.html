@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        /* Style for the submit button */
+        button[type="submit"] {
+            background-color: #90ee90; /* Light green shade */
+            color: #000; /* Black text */
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #76c776; /* Slightly darker green on hover */
+        }
+
+        /* Add spacing between form elements */
+        form label, form input, form select, form button {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Section: Educational Background -->
+    <h3>Educational Background</h3>
+    <div class="education"></div>
+
+    <!-- Section: Form to Submit User Details -->
+    <h3>Submit Your Details</h3>
+    <form action="/upload" method="post" enctype="multipart/form-data"> 
+        <!-- Input field for user's full name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required> 
+        
+        <!-- Input field for user's Tertiary institution attended -->
+        <label for="tertiary institution">Tertiary Institution:</label>
+        <input type="text" id="tertiary institution" name="tertiary institution" placeholder="Enter tertiary institution" required>
+     
+        <!-- Input field for user's country -->
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" placeholder="Enter your country" required>
+        
+        <!-- Dropdown for selecting year of graduation -->
+        <label for="graduation-year">Year of Graduation:</label>
+        <select id="graduation-year" name="graduation-year" required>
+            <option value="" disabled selected>Select year</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>          
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+        </select>
+        
+        <!-- Dropdown for selecting type of qualification -->
+        <label for="qualification">Type of Qualification:</label>
+        <select id="qualification" name="qualification" required>
+            <option value="" disabled selected>Select qualification</option>
+            <option value="phd">PhD</option>
+            <option value="masters">Masters</option>
+            <option value="degree">Degree</option>
+            <option value="diploma">Diploma</option>
+            <option value="certificate">Certificate</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <!-- File input for uploading CV -->
+        <label for="cv-upload">Upload Your CV:</label>
+        <input type="file" id="cv-upload" name="cv-upload" accept=".pdf,.doc,.docx" required>
+        
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
