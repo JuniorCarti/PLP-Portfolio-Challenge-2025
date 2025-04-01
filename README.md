@@ -46,12 +46,12 @@ This is a **collaborative portfolio website** built by our team for the PLP Port
 | Task | Description | Assignee | Due Date | Status |
 |------|------------|----------|----------|--------|
 | Set up GitHub Repo | Create the repo, README, and folder structure | Ridge | March 31 | ✅ Completed |
-| Navbar Design | Build and style the navigation bar | Faith | April 1 | 🔄 In Progress |
+| Navbar Design | Build and style the navigation bar | Faith | April 1 | ✅ Completed  |
 | Homepage Layout (Hero Section) | Create the intro with name, tagline & bio | Derrick | April 1 | 🔴 Not Started |
-| Education Section | Add education details (school, certifications) | Kesi | April 1 | 🔴 Not Started |
-| Interests Section | Showcase hobbies, passions & skills | Segole | April 1 | 🔴 Not Started |
-| Projects Section | Showcase portfolio projects with links | Lusanda | April 2 | 🔴 Not Started |
-| Contact Form | Implement a working contact form | Mphoo | April 2 | 🔴 Not Started |
+| Education Section | Add education details (school, certifications) | Kesi | April 1 | 🔄 In Progress |
+| Interests Section | Showcase hobbies, passions & skills | Segole | April 1 | 🔄 In Progress  |
+| Projects Section | Showcase portfolio projects with links | Lusanda | April 2 | 🔄 In Progress  |
+| Contact Form | Implement a working contact form | Mphoo | April 2 | 🔄 In Progress  |
 | Responsive Design | Make the site mobile-friendly using CSS media queries | Faith | April 2 | 🔴 Not Started |
 | Animations & UI Enhancements | Add CSS transitions & animations | Faith | April 2 | 🔴 Not Started |
 | Testing & Debugging | Review & fix UI bugs across devices | Ridge | April 3 | 🔴 Not Started |
