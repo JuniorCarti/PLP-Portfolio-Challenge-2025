@@ -47,8 +47,8 @@ This is a **collaborative portfolio website** built by our team for the PLP Port
 |------|------------|----------|----------|--------|
 | Set up GitHub Repo | Create the repo, README, and folder structure | Ridge | March 31 | ✅ Completed |
 | Navbar Design | Build and style the navigation bar | Faith | April 1 | ✅ Completed  |
-| Homepage Layout (Hero Section) | Create the intro with name, tagline & bio | Derrick | April 1 | 🔴 Not Started |
-| Education Section | Add education details (school, certifications) | Kesi | April 1 | 🔄 In Progress |
+| Homepage Layout (Hero Section) | Create the intro with name, tagline & bio | Derrick | April 1 | ✅ Completed |
+| Education Section | Add education details (school, certifications) | Kesi | April 1 | ✅ Completed |
 | Interests Section | Showcase hobbies, passions & skills | Segole | April 1 | 🔄 In Progress  |
 | Projects Section | Showcase portfolio projects with links | Lusanda | April 2 | 🔄 In Progress  |
 | Contact Form | Implement a working contact form | Mphoo | April 2 | 🔄 In Progress  |
