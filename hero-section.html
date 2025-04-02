@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hero-section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #555;
+            color: white;
+            padding: 20px;
+        }
+        
+
+        .image-container {
+            border-radius: 50%;
+            flex: 1 ; 
+            display: flex;
+            justify-content: center;
+            width: 30vh;
+            height: 40vh;
+            background-image: url('https://t4.ftcdn.net/jpg/01/35/92/85/360_F_135928597_xU5EzKq6vpOeXPX5vsbI48zfVVkSRlrF.jpg');
+            background-size: cover;
+            transition: background-image 0.3s ease-in-out;
+            margin: 10px;
+        }
+
+        .image-container:hover {
+            background-image: url('https://img.freepik.com/premium-vector/cute-programmer-debugging-code-cartoon-vector_865091-13403.jpg?semt=ais_hybrid');
+        }
+
+        .main-content {
+        flex: 1 1 300px;
+        padding: 20px;
+        text-align: left;
+        }
+
+        .hero-text{
+            font-size: 3rem;
+            margin-top: 20px;
+            color: #e2e8f0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .main-text {
+        font-size: 4rem;
+        color: transparent;
+        -webkit-text-stroke: 2px teal;
+        text-align: center;
+        font-family: 'Poppins', sans-serif; 
+        }
+
+
+        .highlight {
+            font-size: 3rem;
+            color: transparent;
+            -webkit-text-stroke: 2px teal;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        button{
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 2cqb;
+            background-color: teal;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        button:hover{
+            transform: scale(1.2);
+            transition: transform 0.5s ease-in-out;
+            color: teal;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    
+   
+    <section class="hero-section">
+        <h1 class="main-text">WEB <br> DEVELOPER</h1>
+        <div class="image-container">
+        </div>
+        <div class="main-content">
+            <h1 id="title">Hi, I am <span class="highlight" id="name"></span></h1>
+            <p class="hero-text"> Crafting seamless and engaging experience worth your time. <br>In need of a website for your company? <br>Let’s turn your site into a sight to behold!!</p>
+            <!-- link to contact form goes here -->
+            <a href="#"><button>WORK WITH ME</button></a>  
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed("#name", {
+            strings: ["Kurosaki Ichigo"],
+            typeSpeed: 100,
+            backSpeed: 50,  
+            showCursor: false, 
+            loop: true,
+            loopcount: 5              
+        });
+    </script>
+</body>
+</html>
