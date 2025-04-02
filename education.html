@@ -33,7 +33,7 @@
 
     <!-- Section: Form to Submit User Details -->
     <h3>Submit Your Details</h3>
-    <form action="/upload" method="post" enctype="multipart/form-data"> 
+    <div action="/upload" method="post" enctype="multipart/form-data"> 
         <!-- Input field for user's full name -->
         <label for="name">Full Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your full name" required> 
@@ -73,14 +73,14 @@
             <option value="certificate">Certificate</option>
             <option value="other">Other</option>
         </select>
-        
+        <br>
+        <br>
         <!-- File input for uploading CV -->
         <label for="cv-upload">Upload Your CV:</label>
         <input type="file" id="cv-upload" name="cv-upload" accept=".pdf,.doc,.docx" required>
         
         <!-- Submit button -->
         <button type="submit">Submit</button>
-    </form>
 </body>
 </html>
 
