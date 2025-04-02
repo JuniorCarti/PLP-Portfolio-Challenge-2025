@@ -1,3 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #222; /* Dark gray background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #ddd; /* Light gray */
+}
+
+.about-section p {
+    color: #ccc; /* Medium gray */
+    line-height: 1.6;
+    text-align: justify;
+}
+.profile-photo {
+    width: 80px;  /* Smaller size */
+    height: 80px; /* Keep it circular */
+    border-radius: 50%; /* Ensures the image remains a perfect circle */
+    border: 2px solid #fff; /* White border for contrast */
+    display: block;
+    margin: 0 auto 10px; /* Centers the image and adds a small space below */
+}
+=======
 * {
     margin: 0;
     padding: 0;
@@ -187,6 +224,7 @@ body {
     font-size: 12px;
     padding-bottom: 5px; /* Creates space below the copyright text */
 }
+
 
 
 
